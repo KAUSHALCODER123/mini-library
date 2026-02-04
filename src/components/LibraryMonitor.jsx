@@ -3,8 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 import { Volume2, VolumeX, AlertTriangle, ShieldCheck } from 'lucide-react';
 
 // Actual Supabase credentials provided by user
-const supabaseUrl = "https://xhvsjrkwthgjhugtivlb.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhodnNqcmt3dGhnamh1Z3RpdmxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzAxODcyNDcsImV4cCI6MjA4NTc2MzI0N30.IKTmKnwSvHv5_vVd7q8pMmnZywP3AZkjspDOKpSSkf4";
+;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function LibraryMonitor() {

@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js';
 import { Volume2, VolumeX, AlertTriangle, ShieldCheck } from 'lucide-react';
 
 // Actual Supabase credentials provided by user
-;
+
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function LibraryMonitor() {
